@@ -18,7 +18,7 @@ function createLogin(firstName, lastName, email) {
     saveLocal();
 
     renderAllLogin();
-    document.getElementById('createLoginForm').reset();
+    document.getElementById('myForm').reset();
 }
 
 
@@ -36,6 +36,7 @@ function getLocal() {
         allLogins = [];
     }
 }
+
 
 // Render all logins
 function renderAllLogin() {
@@ -57,9 +58,10 @@ function renderOneLogin(login) {
 getLocal();
 renderAllLogin();
 
+
 // Slusanje eventa submita forme
 // var createLoginForm = document.getElementById('createLoginForm');
-$('#createLoginForm').submit(function(e){
+$('#myForm').submit(function(e){
     e.preventDefault();
     var firstName = document.getElementById('firstName').value;
     var lastName = document.getElementById('lastName').value;
@@ -70,9 +72,9 @@ $('#createLoginForm').submit(function(e){
 
 
 // JQuerry dropdown menu
-$( "#menu" ).click(function(event) {
+$("#menu").click(function(event) {
     event.stopPropagation();
-    $( "#dropdown" ).toggle( "fast", function() {
+    $("#dropdown").toggle( "fast", function() {
 
     });
 });
