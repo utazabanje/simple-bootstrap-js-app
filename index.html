@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Small Booststra and JS app</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-social.css" rel="stylesheet">
+    <!-- Jumbotron narrow-->
+    <link href="css/jumbotron-narrow.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- Core CSS -->
+    <link href="css/index.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header clearfix">
+            <div class="dropdown" id="menu">
+                <button class="btn btn-primary">Menu</button>
+                <div class="dropdown-content" id="dropdown">
+                    <a href="#">All Content</a>
+                    <a href="#">Designs</a>
+                    <a href="#">Something Else</a>
+                </div>
+            </div>
+            <h3 class="text-muted">Bootstrap and JS app</h3>
+        </div>
+
+        <div class="jumbotron">
+            <h2>JS Exercise</h2>
+
+            <form id="myForm">
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" class="form-control" id="firstName" name="firstName" placeholder="Enter your first name.." required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Enter your last name.." required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email.." required>
+                    </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+
+        <div class="row marketing">
+            <div class="col-lg-12">
+                <div class="row">
+                    <div id="loginResults">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div id="socials">
+                <a class="btn btn-social-icon btn-google" href="http://www.google.com" target="_blank">
+                    <span class="fa fa-google"></span>
+                </a>
+                <a class="btn btn-social-icon btn-github" href="http://www.github.com" target="_blank">
+                    <span class="fa fa-github"></span>
+                </a>
+                <a class="btn btn-social-icon btn-twitter" href="http://www.twitter.com" target="_blank">
+                    <span class="fa fa-twitter"></span>
+                </a>
+                <a class="btn btn-social-icon btn-instagram" href="http://www.instagram.com" target="_blank">
+                    <span class="fa fa-instagram"></span>
+                </a>
+                <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com" target="_blank">
+                    <span class="fa fa-facebook"></span>
+                </a>
+                <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com" target="_blank">
+                    <span class="fa fa-linkedin"></span>
+                </a>
+            </div>
+        </footer>
+
+    </div> <!-- /container -->
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js"
+            integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+            crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
