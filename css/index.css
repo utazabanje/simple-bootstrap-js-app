@@ -42,4 +42,5 @@ label {
 
 .well {
   list-style: none;
-  width: 32%; }
+  width: 31%;
+  margin: 1%; }
